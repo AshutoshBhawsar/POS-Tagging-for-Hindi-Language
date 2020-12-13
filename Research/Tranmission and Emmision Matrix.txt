@@ -1,0 +1,5 @@
+In the hidden Markov model we use two matrices. The first one, called the transition matrix, determines probabilities of transitions from one hidden state to another one (the next one). The second matrix, called the emission matrix, determines probabilities of observations given a hidden state.
+
+In other words, we can imagine a system as being in a state (which is hidden, unobservable) and this hidden state determines the probability of the next hidden state as well as probability of a given observation.
+
+It means that we assume that a "jump" (or transition) to the next hidden state and "generation" of a certain observation are independent events.
